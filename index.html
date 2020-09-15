@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Password Hide/Show</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="form">
+      <h2>login</h2>
+      <input type="text" placeholder="username" class="username" id="username"/>
+      <i class="material-icons">account_box</i>
+      <input type="password" placeholder="Password" class="password" id="password"/>
+      <i class="material-icons visibility" onclick="show()">visibility</i>
+      <input type="submit" value="login" class="submit" id="login"/>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
